@@ -1,0 +1,62 @@
+      .div-2{
+          font-size: 15px;
+          text-align: center;
+          display: flex;
+          flex-direction: row-reverse;
+          flex-wrap: wrap;
+          justify-content: center;
+          justify-content: space-around;
+          padding-bottom: 5rem;
+ 
+
+            .img-1{
+              max-width: 250px;
+              
+             }
+            .img-2{
+              max-width: 250px;
+             }
+            .img-3{
+              max-width: 250px;
+             }
+            .img-4{
+              max-width: 150px;
+             }
+            .img-5{
+              max-width: 250px;
+             }
+            .img-6{
+              max-width: 150px;
+             }
+             .div-2-1{
+            padding: 60px 0px;
+            text-align: center;
+              p{
+                width: 180px;
+                position: absolute;
+                left: 7.2%;
+               }
+             }
+             .div-2-2{
+            padding: 60px 0px;
+
+             }
+             .div-2-3{
+            padding: 85px 0px;
+
+             }
+             .div-2-4{
+            padding: 60px 0px;
+             
+             }
+             .div-2-5{
+            padding: 40px 0px;
+
+             }
+             .div-2-6{
+            padding: 34px 0px;
+
+             }
+            }
+    }      
+

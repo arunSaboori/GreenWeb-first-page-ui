@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "vazir";
+  src: url(/vazir-font-v16.1.0/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff)
+    format("truetype");
+}
+$header1-background-color: #fff;
+$header2-background-color: #79a342;
+$header-font-color: white;
+$font-color-holding:#aaaaaa;
+$icon-size-width: 25px;
+$icon-size-height: 22px;
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "vazir";
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+body{
+  min-height:100%;
+  font-size: 16px
+  }
+
+.twitter-icon {
+  width: $icon-size-width;
+  height: $icon-size-height;
+}
+.in-icon {
+  width: $icon-size-width;
+  height: 23px;
+}
+.instagram-icon {
+  width: $icon-size-width;
+  height: $icon-size-height;
+}
+.message-icon {
+  width: $icon-size-width;
+  height: $icon-size-height;
+}
+.telephone-icon {
+  width: $icon-size-width;
+  height: $icon-size-height;
+}
+.search-icon {
+  width: $icon-size-width;
+  height: $icon-size-height;
+}
+.greenweb-icon {
+   width: 200px;
+  height: 65px;
+  position: relative;
+  right: 8%;
+  transform: translateY(-50px);
+ }
+.header-1{
+    background-color: $header-font-color;
+    position: relative;
+    z-index: -2;
+
+ }
+.div-mother {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px 110px;
+}
+.div-1 {
+  padding: 2px 30px;
+}
+.div-1 table tr td {
+  padding: 5px 7px;
+}
+.div-2 table tr td {
+  padding: 5px 7px;
+}
+
+.header-2 {
+   position: relative;
+   z-index: 1;
+   transform: translateY(-230px);
+   background-color: $header2-background-color;
+  width: 67rem;
+  height: 80px;
+  display: flex;
+  justify-content: end;
+  float: left;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 70%, 100% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 93% 0);
+}
+
+.header-2 table {
+  padding: 0px 130px;
+}
+.header-2 table tr td {
+  padding: 0px 20px;
+}
+.a {
+  color: $header1-background-color;
+}
+
+
+
+.video{
+    position: absolute;
+    top: 14%;
+    width: 100%;
+    z-index: -2;
+}
+
+
+
+
+
+.img-holding{
+  width: 1300px;
+  height: 130px;
+}
+
+
+
+
+
+article{
+    background-color: $header1-background-color;
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    right: 5%;
+    border-radius: 50px;
+
+     p{
+      color: $font-color-holding;
+     }  
+     
+     .div-1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem ;
+     }
+
+
+     .input-1{
+     background-color: $header2-background-color;
+     color: $header1-background-color;
+     border: $header-font-color solid 4px;
+     font-size: 16px;
+     width: 170px;
+     height: 50px;
+     border-radius: 100px;
+     margin: 4rem; 
+     cursor:pointer;
+      }
+
+    }
+
+
+.div-2{
+  font-size: 17px;
+  padding-bottom: 10rem;
+}
+
+.div-t-1{
+text-align: center;
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-around;
+   div{
+    padding: 20px 60px;
+   }
+} 
+ .div-t-2{
+  text-align: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  div{
+    padding: 20px 60px;
+   }
+ }
+
